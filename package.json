@@ -1,0 +1,32 @@
+{
+  "name": "tutor2u-ui",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "npm run development",
+    "development": "cross-env NODE_ENV=development node_modules/webpack/bin/webpack.js --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
+    "watch": "npm run development -- --watch",
+    "hot": "cross-env NODE_ENV=development node_modules/webpack-dev-server/bin/webpack-dev-server.js --inline --hot --config=node_modules/laravel-mix/setup/webpack.config.js",
+    "prod": "npm run production",
+    "production": "cross-env NODE_ENV=production node_modules/webpack/bin/webpack.js --no-progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tutor2u/tutor2u-ui.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tutor2u/tutor2u-ui/issues"
+  },
+  "homepage": "https://github.com/tutor2u/tutor2u-ui#readme",
+  "devDependencies": {
+    "cross-env": "^7.0.2",
+    "laravel-mix": "5.0.5",
+    "postcss-easy-import": "^3.0.0"
+  },
+  "dependencies": {
+    "tailwindcss": "^1.8.10"
+  }
+}
