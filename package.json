@@ -1,8 +1,16 @@
 {
   "name": "@tutor2u/tutor2u-ui",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
-  "main": "index.js",
+  "main": "tailwind.config.js",
+  "devDependencies": {
+    "cross-env": "^7.0.2",
+    "laravel-mix": "5.0.5",
+    "postcss-easy-import": "^3.0.0"
+  },
+  "dependencies": {
+    "tailwindcss": "^1.9.0"
+  },
   "scripts": {
     "dev": "npm run development",
     "development": "cross-env NODE_ENV=development node_modules/webpack/bin/webpack.js --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
@@ -15,18 +23,9 @@
     "type": "git",
     "url": "git+https://github.com/tutor2u/tutor2u-ui.git"
   },
-  "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/tutor2u/tutor2u-ui/issues"
   },
-  "homepage": "https://github.com/tutor2u/tutor2u-ui#readme",
-  "devDependencies": {
-    "cross-env": "^7.0.2",
-    "laravel-mix": "5.0.5",
-    "postcss-easy-import": "^3.0.0"
-  },
-  "dependencies": {
-    "tailwindcss": "^1.8.10"
-  }
+  "homepage": "https://github.com/tutor2u/tutor2u-ui#readme"
 }

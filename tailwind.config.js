@@ -1,7 +1,9 @@
 module.exports = {
   future: {
-    // removeDeprecatedGapUtilities: true,
-    // purgeLayersByDefault: true,
+    // defaultLineHeights: true,
+    // standardFontWeights: true
+    removeDeprecatedGapUtilities: true,
+    purgeLayersByDefault: true,
   },
   purge: [],
   theme: {
@@ -34,5 +36,5 @@ module.exports = {
     },
   },
   variants: {},
-  plugins: [],
+  plugins: []
 }
