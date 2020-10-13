@@ -6,7 +6,7 @@ const distPath = 'dist';
 mix.setPublicPath(distPath);
 
 mix
-    .postCss('src/css/index.css', './dist/css')
+    .postCss(sourcePath + '/css/index.css', distPath + '/css')
     .options({
         postCss: [
             require('postcss-easy-import')(),
@@ -22,4 +22,4 @@ mix
 
 if(mix.inProduction()) {
     mix.version();
- }
+}
