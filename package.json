@@ -1,6 +1,6 @@
 {
   "name": "@tutor2u/tutor2u-ui",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "",
   "main": "tailwind.config.js",
   "devDependencies": {

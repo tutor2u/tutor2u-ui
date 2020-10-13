@@ -1,4 +1,5 @@
 module.exports = {
+  presets: [require('tailwindcss/defaultConfig')],
   future: {
     // defaultLineHeights: true,
     // standardFontWeights: true
