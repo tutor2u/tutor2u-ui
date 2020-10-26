@@ -17,6 +17,7 @@ mix
         processCssUrls: false,
     })
     .copyDirectory(sourcePath + '/icons', distPath + '/icons')
+    .copyDirectory(sourcePath + '/fonts', distPath + '/fonts')
     .sourceMaps()
 ;
 
