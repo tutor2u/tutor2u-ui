@@ -1,6 +1,6 @@
 {
   "name": "@tutor2u/tutor2u-ui",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "",
   "main": "tailwind.config.js",
   "dependencies": {
@@ -8,6 +8,7 @@
     "cross-env": "^7.0.2",
     "laravel-mix": "5.0.5",
     "postcss-easy-import": "^3.0.0",
+    "postcss-preset-env": "^6.7.0",
     "tailwindcss": "^1.9.6"
   },
   "scripts": {
