@@ -7,7 +7,6 @@
     "@tailwindcss/ui": "^0.6.2",
     "cross-env": "^7.0.2",
     "laravel-mix": "5.0.5",
-    "postcss": "^8.1.4",
     "postcss-easy-import": "^3.0.0",
     "postcss-nested": "^5.0.1",
     "postcss-preset-env": "^6.7.0",
@@ -29,5 +28,8 @@
   "bugs": {
     "url": "https://github.com/tutor2u/tutor2u-ui/issues"
   },
-  "homepage": "https://github.com/tutor2u/tutor2u-ui#readme"
+  "homepage": "https://github.com/tutor2u/tutor2u-ui#readme",
+  "devDependencies": {
+    "postcss": "^8.1.4" 
+  }
 }
