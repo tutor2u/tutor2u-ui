@@ -1,13 +1,15 @@
 {
   "name": "@tutor2u/tutor2u-ui",
-  "version": "1.0.10",
+  "version": "1.0.11",
   "description": "",
   "main": "tailwind.config.js",
   "dependencies": {
     "@tailwindcss/ui": "^0.6.2",
     "cross-env": "^7.0.2",
     "laravel-mix": "5.0.5",
+    "postcss": "^8.1.4",
     "postcss-easy-import": "^3.0.0",
+    "postcss-nested": "^5.0.1",
     "postcss-preset-env": "^6.7.0",
     "tailwindcss": "^1.9.6"
   },
@@ -27,5 +29,5 @@
   "bugs": {
     "url": "https://github.com/tutor2u/tutor2u-ui/issues"
   },
-  "homepage": "https://github.com/tutor2u/tutor2u-ui#readme"
+  "homepage": "https://github.com/tutor2u/tutor2u-ui#readme",
 }
