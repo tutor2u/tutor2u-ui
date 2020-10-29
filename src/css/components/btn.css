@@ -12,18 +12,17 @@
         @apply transition;
         @apply ease-in-out;
         @apply duration-150;
-
+        min-height: 42px;
         border-color: #EEEFEF;
         color: #6B757B;
         background-color: #EEEFEF;
 
         &.small {
             @apply text-sm;
-            /* Override's the text-sm default line height so it matches the larger button */
-            @apply leading-6;
         }
         
         &.compact {
+            min-height: 34px;
             @apply text-sm;
             @apply py-1.5;
         }
