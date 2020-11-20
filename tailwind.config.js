@@ -31,7 +31,7 @@ module.exports = {
         't2u-blue': {
           lighter: '#0094de',
           light: '#0072bb',
-          default: '#0068a8',
+          DEFAULT: '#0068a8',
           dark: '#00498e',
           darker: '#003971',
         },
@@ -39,7 +39,7 @@ module.exports = {
           'xx-light': '#f9fafb',
           'x-light': '#f3f5f8',
           'light': 'red',
-          'base': '#edeff2',
+          DEFAULT: '#edeff2',
           'dark': '#e2e6e8',
           'x-dark': 'red',
           'xx-dark': 'red',
@@ -48,7 +48,7 @@ module.exports = {
           'xx-light': 'red',
           'x-light': '#ed028c',
           'light': 'red',
-          'base': '#ba006d',
+          DEFAULT: '#ba006d',
           'dark': 'red',
           'x-dark': '#88004f',
           'xx-dark': 'red',
@@ -66,6 +66,7 @@ module.exports = {
   },
   variants: {},
   plugins: [
-    require('@tailwindcss/ui')
+    require('@tailwindcss/forms'),
+    require('@tailwindcss/aspect-ratio'),
   ]
 }
