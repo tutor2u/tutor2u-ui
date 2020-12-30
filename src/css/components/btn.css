@@ -111,6 +111,36 @@
         }
     }
 
+    .Btn--pager {
+        @apply text-white;
+        background-color: #0072bb;
+        border-color: #0072bb;
+
+        &:hover,
+        &.hover {
+            @apply text-white;
+            background-color: #0068a8;
+            border-color: #0068a8;
+        }
+
+        &:active,
+        &.selected,
+        &[aria-selected=true] {
+
+        }
+
+        &:disabled,
+        &.disabled,
+        &[aria-disabled=true] {
+
+        }
+
+        &:focus,
+        &.focus {
+
+        }
+    }
+
     .Btn--subtle {
         @apply font-normal;
         @apply bg-transparent;
