@@ -29,26 +29,46 @@ module.exports = {
       pink: colors.pink,
       blue: colors.lightBlue,
       yellow: colors.amber,
-      green: colors.emerald,
-      social: {
-        email: '#69757c',
-        facebook: '#4a66a4',
-        linkedin: '#4374b4',
-        messenger: '#007fff',
-        pinterest: '#BD081C',
-        twitter: '#00aeef',
-        whatsapp: '#67c15e',
-        youtube: '#e33228'
-      },
-      subjects: {
-        business: '#00498e',
-        economics: '#822f66',
-        psychology: '#cd680d',
-        sociology: '#3f3f8c',
-        geography: '#2f8338',
-        politics: '#0d7f5a'
-      }
+      green: colors.emerald
     },
+    extend: {
+      width: {
+        '5/18': '27.7777777778%',
+        '13/18': '72.2222222222%'
+      },
+      colors: {
+        social: {
+          email: '#69757c',
+          facebook: '#4a66a4',
+          linkedin: '#4374b4',
+          messenger: '#007fff',
+          pinterest: '#BD081C',
+          twitter: '#00aeef',
+          whatsapp: '#67c15e',
+          youtube: '#e33228'
+        },
+        subjects: {
+          business: '#00498e',
+          economics: '#822f66',
+          psychology: '#cd680d',
+          sociology: '#3f3f8c',
+          geography: '#2f8338',
+          politics: '#0d7f5a'
+        },
+        't2u-pink': {
+          dark: '#440930',
+          DEFAULT: '#880150',
+          light: '#a10b5f',
+          lighter: '#d1127c'
+        },
+        't2u-blue': {
+          dark: '#01498e',
+          DEFAULT: '#0068a8',
+          light: '#0073bb',
+          lighter: '#0094de'
+        },        
+      }
+    }
   },
   variants: {},
   plugins: [
