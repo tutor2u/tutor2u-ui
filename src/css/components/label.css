@@ -1,0 +1,45 @@
+@layer components {
+    .Label {
+        @apply inline-flex;
+        @apply px-2;
+        @apply py-0.5;
+        @apply text-xs;
+        @apply font-medium;
+        @apply rounded-full;
+        @apply bg-transparent;
+        @apply border;
+    }
+    
+    .Label--gray {
+        @apply text-gray-600;
+    }
+    
+    .Label--gray-darker {
+        @apply text-gray-900;
+        @apply border-gray-500;
+    }
+    
+    .Label--yellow {
+    
+    }
+    
+    .Label--orange {
+    
+    }
+    
+    .Label--red {
+    
+    }
+    
+    .Label--green {
+    
+    }
+    
+    .Label--blue {
+    
+    }
+    
+    .Label--pink {
+        
+    }
+}

@@ -1,0 +1,32 @@
+@layer components {
+    .UnderlineNav {
+        @apply flex;
+        @apply justify-between;
+        @apply overflow-y-hidden;
+        @apply overflow-x-auto;
+    }
+
+    .UnderlineNav-body {
+        @apply flex;
+        @apply space-x-8;
+    }
+
+    .UnderlineNav-item {
+        @apply inline-flex;
+        @apply items-center;
+        @apply px-1;
+        @apply py-3;
+        @apply font-medium;
+        @apply border-transparent;
+        @apply border-b-2;
+        @apply text-gray-500;
+        @apply hover:border-gray-300;
+        @apply hover:text-gray-700;
+
+        &.selected {
+            @apply text-gray-900;
+            @apply border-t2u-blue-lighter;
+            @apply hover:border-t2u-blue-lighter;
+        }
+    }
+}

@@ -1,0 +1,69 @@
+@layer components {
+    .Box {
+        @apply bg-white;
+        @apply rounded;
+        @apply shadow;
+    }
+
+    .Box--condensed {
+
+    }
+
+    .Box--spacious {
+
+    }
+
+    .Box-header {
+        @apply p-4;
+        @apply md:p-5;
+        margin: -1px -1px 0;
+        @apply border;
+        @apply rounded-t;
+    }
+
+    .Box-title {
+        @apply font-bold text-lg;
+    }
+
+    .Box-body {
+        @apply p-4;
+        @apply md:p-5;
+        @apply border-b;
+
+        /* Ensures bottom-border doesn't poke out when .Box-body used without box-footer */
+        &:last-of-type {
+            @apply -mb-px;
+            @apply rounded-b;
+        }
+    }
+
+    .Box-row {
+        @apply p-4;
+        @apply md:p-5;
+        @apply -mt-px;
+        @apply border-t;
+
+        &:first-of-type {
+            @apply rounded-t;
+        }
+
+        &:last-of-type {
+            @apply rounded-b;
+        }
+    }
+
+    .Box-row--hover-gray {
+        @apply hover:bg-gray-50;
+    }
+    
+    .Box-row--hover-blue {
+        @apply hover:bg-blue-50;
+    }
+
+    .Box-footer {
+        @apply p-4;
+        @apply md:p-5;
+        @apply -mt-px;
+        @apply border-t;
+    }
+}
