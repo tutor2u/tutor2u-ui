@@ -56,8 +56,9 @@ module.exports = {
           politics: '#0d7f5a'
         },
         't2u-pink': {
-          dark: '#440930',
-          DEFAULT: '#880150',
+          darker: '#440930',
+          dark: '#880150',
+          DEFAULT: '#ba006d',
           light: '#a10b5f',
           lighter: '#d1127c'
         },
