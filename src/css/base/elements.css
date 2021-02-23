@@ -5,4 +5,20 @@
       text-rendering: optimizeLegibility;
       @apply text-gray-800;
     }
-  }
+
+    blockquote {
+		@apply m-0;
+		@apply font-medium;
+      	@apply fonnt-italic;
+      	@apply text-gray-900;
+      	quotes: "\201C""\201D""\2018""\2019";
+  	}
+
+  	blockquote p:first-of-type:before {
+      	content: open-quote;
+  	}
+
+  	blockquote p:last-of-type:after {
+      	content: close-quote;
+  	}
+}

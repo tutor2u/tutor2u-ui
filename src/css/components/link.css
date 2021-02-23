@@ -1,0 +1,7 @@
+@layer components {
+    .Link {
+        @apply text-t2u-blue-light;
+        @apply border-b;
+        @apply hover:text-t2u-blue-dark;
+    }
+}
