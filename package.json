@@ -1,17 +1,21 @@
 {
   "name": "@tutor2u/tutor2u-ui",
-  "version": "1.1.8",
+  "version": "1.1.9",
   "description": "",
   "main": "tailwind.config.js",
   "dependencies": {
     "@tailwindcss/aspect-ratio": "^0.2.0",
     "@tailwindcss/forms": "^0.2.1",
+    "@tailwindcss/postcss7-compat": "^2.0.3",
+    "autoprefixer": "^9.8.6",
     "cross-env": "^7.0.2",
     "laravel-mix": "5.0.7",
     "object-fit-images": "^3.2.4",
+    "postcss": "^7.0.35",
     "postcss-easy-import": "^3.0.0",
     "postcss-object-fit-images": "^1.1.2",
-    "postcss-preset-env": "^6.7.0"
+    "postcss-preset-env": "^6.7.0",
+    "tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.0.3"
   },
   "scripts": {
     "dev": "npm run development",
@@ -30,10 +34,4 @@
     "url": "https://github.com/tutor2u/tutor2u-ui/issues"
   },
   "homepage": "https://github.com/tutor2u/tutor2u-ui#readme",
-  "devDependencies": {
-    "@tailwindcss/postcss7-compat": "^2.0.3",
-    "autoprefixer": "^9.8.6",
-    "postcss": "^7.0.35",
-    "tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.0.3"
-  }
 }
