@@ -9,7 +9,7 @@
     blockquote {
 		@apply m-0;
 		@apply font-medium;
-      	@apply fonnt-italic;
+      	@apply font-italic;
       	@apply text-gray-900;
       	quotes: "\201C""\201D""\2018""\2019";
   	}
